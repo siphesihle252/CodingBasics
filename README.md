@@ -1,4 +1,4 @@
-# HTML & CSS Basics
+# HTML, CSS and JS Basics
 Basics of HTML, CSS and JavaScript;
 Buttons (for Page, Reset & Submit);
 Manual Slide Show;
@@ -7,3 +7,9 @@ Form;
 Links(website);
 insect {color, month,);
 and More.
+
+var
+const
+let
+while/loop
+and more
