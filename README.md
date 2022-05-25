@@ -1,2 +1,2 @@
 # HTML & CSS Basics
-Basics of HTML & CSS
+Basics of HTML, CSS and JavaScript
