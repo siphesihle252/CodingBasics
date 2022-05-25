@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SneakerShop</title>
+
+</head>
+<body>
+     
+    
+    <div class="col-md-4" style="background-color: #2d9c0b; color: rgb(255, 255, 255); border: 2px solid #fff; font-size: 15px; text-transform: uppercase; font-weight: 700; padding: 10px 20px; border-radius: 10px; display: inline-block; transition: all 0.3s; text-decoration: none; margin: 5px; text-align: center; position: sticky; top: 50%; bottom: 50%;">
+        <a href="" class="border-botton" style="color: #fff;">OtherPage</a>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    <!-- Full-width images with number and caption text -->
+      <style>
+        .mySlides {display:none;}
+        </style>
+        
+        <h2 class="center">SneakerShop</h2>
+        
+        <div class="content display-container">
+          <img class="mySlides" src="warren.jpg" style="width:20%">
+          <img class="mySlides" src="artem.jpg" style="width:20%">
+          <img class="mySlides" src="revolt.jpg" style="width:30%">
+          <img class="mySlides" src="maksim.jpg" style="width: 30%;">
+        
+          <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+<br><br>
+    <div class="flex-container">
+      <div class="hero-image">
+        <div class="col-md-4 footer-item">
+          <p>
+          <a href="http://facebook.com/" target="_blank"><img src="face.png" class="right"></a>
+          <a href="http://instagram.com/" target="_blank"><img src="insta.png" class="right"></a>
+          <a href="http://twitter.com/" target="_blank"><img src="tweet.png" class="right"></a>
+          </p>
+          <p style="color: rgb(0, 23, 85);">Copyright &copy; 2022 Siphesihle Ntwanambi Pty(Ltd).
+            
+          
+             Design: <a rel="nofollow noopener" href="" target="_blank">Edusignis</a></p>
+            </div>
+        
+</body>
+</html>
